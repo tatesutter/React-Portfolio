@@ -25,7 +25,7 @@ This is a personal portfolio website built with React.js. It showcases projects,
 
 3. Install dependencies:
    ```sh
-  bun install
+   bun install
    ```
 
 4. Start the development server:
