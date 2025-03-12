@@ -1,0 +1,33 @@
+.portfolio .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .project-card {
+    background-color: var(--accent-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 60%;
+    border-radius: 8px;
+}
+
+a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    margin: 4px;
+}
